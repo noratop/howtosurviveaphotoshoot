@@ -1,0 +1,23 @@
+{
+  "name": "name",
+  "version": "0.1.0",
+  "author": "Nora Top <top.nora@gmail.com>",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-gh-pages": "^2.0.0",
+    "grunt-jekyll": "^0.4.6",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-webpack": "^2.0.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.3"
+  }
+}

@@ -1,0 +1,20 @@
+//Colors
+$gold: #cbaf00;
+$gray: darken(#a5a384,30);
+$white: #fff;
+$black: #343434;
+$avatar:$gray;
+$logo:$gray;
+
+// Paul Irish Box-Model
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@import 'mixins';
+@import 'general';
+@import 'header';
+@import 'font';

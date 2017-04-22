@@ -1,3 +1,12 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+.grunt
+node_modules
+.sass-cache
+*.css*
+/src/assets/css
+/src/assets/js/*app-bundle*
+/dist
+/dist-jekyll
+/_site
