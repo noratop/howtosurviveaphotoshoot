@@ -1,10 +1,10 @@
 //Colors
 $gold: #cbaf00;
 $gray: darken(#a5a384,30);
-$white: #fff;
+$white: #f6f6f6;
 $black: #343434;
-$avatar:$gray;
-$logo:$gray;
+
+@import 'mixins';
 
 // Paul Irish Box-Model
 html {
@@ -14,7 +14,61 @@ html {
   box-sizing: inherit;
 }
 
-@import 'mixins';
-@import 'general';
+body {
+  font-family: Lato, sans-serif;
+  color: $gray;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  background-color: $white;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //background-color: grey;
+}
+
+.content {
+  width: 1024px;
+  height: 683px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //background-color: blue;
+}
+
+h1 {
+  //font-family: 'Lato', sans-serif;
+  //font-family: 'Megrim', cursive;
+  //font-family: 'Muli', sans-serif;
+  //font-family: 'Open Sans', sans-serif;
+  //font-family: 'Poiret One', cursive;
+  //font-family: 'Raleway', sans-serif;
+  //font-family: 'Roboto', sans-serif;
+  //font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 4px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.gold {
+  color: $gold;
+}
+
 @import 'header';
-@import 'font';
+@import 'gallery';
+@import 'single';
+
+@import "pages";

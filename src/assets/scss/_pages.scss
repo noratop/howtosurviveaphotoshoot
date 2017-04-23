@@ -1,0 +1,17 @@
+.page1 {
+  background-image: url('https://unsplash.it/2048/1366?image=454');
+  background-repeat: no-repeat;
+  padding: 0 250px;
+
+  h1 {
+    color: $white;
+    //opacity: 0.9;
+    border: 9px $white solid;
+    padding: 50px 60px;
+    font-size: 70px;
+  }
+}
+
+.page2 {
+
+}
