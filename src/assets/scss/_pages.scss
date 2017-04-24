@@ -152,3 +152,269 @@
     padding: 0 250px;
   }
 }
+
+.page8 {
+
+  .left {
+    p {
+      padding: 0 60px;
+    }
+    h2 {
+      @include big-title($black);
+    }
+  }
+
+  .right {
+    flex: 5;
+    height: 100%;
+    background-image: url('../img/IMG_6754.jpg');
+    @include full-bg('center');
+  }
+}
+
+.page9 {
+  h2 {
+    @include big-title($white);
+  }
+
+  .content {
+    //color: $white;
+    background-image: url('../img/IMG_6887.jpg');
+    @include full-bg('center');
+
+    div {
+      background-color: rgba(255, 255, 255, 0.9);
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    p {
+      padding: 80px 80px;
+      margin: 0;
+    }
+  }
+}
+
+.page10 {
+  h2 {
+    @include big-title($white);
+  }
+
+  .content {
+    //color: $white;
+    background-image: url('../img/IMG_6820.jpg');
+    @include full-bg('center');
+
+    div {
+      background-color: rgba(255, 255, 255, 0.9);
+      height: 100%;
+      flex: 4;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    p {
+      padding: 80px 80px;
+      margin: 0;
+    }
+  }
+}
+
+.page11 {
+  h1 {
+    @include big-title($white);
+    border: 9px $white solid;
+  }
+
+  .content {
+    background-image: url('../img/IMG_6802.jpg');
+    @include full-bg('center');
+    padding: 0 250px;
+  }
+}
+
+.page12 {
+
+  .left {
+    p {
+      padding: 0 60px;
+    }
+    h2 {
+      @include big-title($black);
+    }
+  }
+
+  .right {
+    flex: 5;
+    height: 100%;
+    background-image: url('../img/IMG_6848.jpg');
+    @include full-bg('center');
+  }
+}
+
+.page13 {
+  .content {
+    background-image: url('../img/IMG_6882.jpg');
+    @include full-bg('center');
+  }
+
+  .frame {
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 10px black solid;
+    padding: 50px;
+  }
+
+  p {
+    //margin: 0;
+    //color: black;
+    font-weight: normal;
+    //text-align: center;
+  }
+}
+
+.page14 {
+  h1 {
+    @include big-title($white);
+    border: 9px $white solid;
+  }
+
+  .content {
+    background-image: url('../img/IMG_6779.jpg');
+    @include full-bg('center');
+    padding: 0 250px;
+  }
+}
+
+.page15 {
+  h2 {
+    @include big-title($white);
+  }
+
+  .content {
+    //color: $white;
+    background-image: url('../img/IMG_6769.jpg');
+    @include full-bg('center');
+
+    div {
+      background-color: rgba(255, 255, 255, 0.9);
+      height: 100%;
+      flex: 4;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    p {
+      padding: 80px 80px;
+      margin: 0;
+    }
+  }
+}
+
+.page16 {
+
+  .left {
+    flex: 5;
+    height: 100%;
+    background-image: url('../img/IMG_6906.jpg');
+    @include full-bg('center');
+  }
+
+  .right {
+    p {
+      padding: 0 60px;
+    }
+    h3 {
+      display: inline;
+      border-bottom: 3px $black solid;
+      padding: 5px 0;
+    }
+    &--content {
+      padding: 80px 70px;
+    }
+  }
+}
+
+.page17 {
+
+  .left {
+    flex: 5;
+    height: 100%;
+    background-image: url('../img/IMG_6872.jpg');
+    @include full-bg('center');
+  }
+
+  .right {
+    p {
+      padding: 0 60px;
+    }
+    h3 {
+      display: inline;
+      border-bottom: 3px $black solid;
+      padding: 5px 0;
+    }
+    &--content {
+      padding: 80px 70px;
+    }
+  }
+}
+
+.page18 {
+  h1 {
+    @include big-title($white);
+    border: 9px $white solid;
+  }
+
+  .content {
+    background-image: url('../img/IMG_6881.jpg');
+    @include full-bg('center');
+    padding: 0 250px;
+    text-align: right;
+  }
+}
+
+.page19 {
+  h1 {
+    @include big-title($white);
+    border: 9px $white solid;
+  }
+
+  .content {
+    background-image: url('../img/IMG_6866.jpg');
+    @include full-bg('center');
+    padding: 0 250px;
+  }
+}
+
+.page20 {
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  li {
+    margin: 5px 0;
+    width: 19%;
+
+    img {
+      width: 100%;
+    }
+
+    &.name {
+      border-bottom: 3px $black solid;
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-end;
+
+      p {
+        font-weight: bolder;
+      }
+    }
+  }
+}
