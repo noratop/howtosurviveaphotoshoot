@@ -6,7 +6,7 @@ node_modules
 .sass-cache
 *.css*
 /src/assets/css
-/src/assets/js/*app-bundle*
+/src/assets/js/*main-bundle*
 /dist
 /dist-jekyll
 /_site
