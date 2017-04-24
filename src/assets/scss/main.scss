@@ -17,41 +17,13 @@ html {
 body {
   font-family: Lato, sans-serif;
   color: $gray;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 15px;
   background-color: $white;
+  //height: 200vh;
 }
 
-.page {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  //background-color: grey;
-}
-
-.content {
-  width: 1024px;
-  height: 683px;
-  padding: 0 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  //background-color: blue;
-}
-
-h1 {
-  //font-family: 'Lato', sans-serif;
-  //font-family: 'Megrim', cursive;
-  //font-family: 'Muli', sans-serif;
-  //font-family: 'Open Sans', sans-serif;
-  //font-family: 'Poiret One', cursive;
-  //font-family: 'Raleway', sans-serif;
-  //font-family: 'Roboto', sans-serif;
-  //font-family: 'Montserrat', sans-serif;
-  font-family: 'Work Sans', sans-serif;
-  letter-spacing: 4px;
+p {
+  line-height: 25px;
+  font-weight: 300;
 }
 
 ul {
@@ -67,8 +39,51 @@ li {
   color: $gold;
 }
 
-@import 'header';
-@import 'gallery';
-@import 'single';
+.page-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //background-color: grey;
+}
 
+.page {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.content {
+  width: 1024px;
+  height: 683px;
+  //padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.absolute {
+  position: absolute;
+  z-index: 2;
+}
+
+.fixed {
+  position: fixed;
+}
+
+h1 {
+  //font-family: 'Lato', sans-serif;
+  //font-family: 'Megrim', cursive;
+  //font-family: 'Muli', sans-serif;
+  //font-family: 'Open Sans', sans-serif;
+  //font-family: 'Poiret One', cursive;
+  //font-family: 'Raleway', sans-serif;
+  //font-family: 'Roboto', sans-serif;
+  //font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 4px;
+}
+
+@import 'header';
+@import 'layouts';
 @import "pages";

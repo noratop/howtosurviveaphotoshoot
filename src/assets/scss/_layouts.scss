@@ -1,0 +1,19 @@
+.col-left {
+  *:first-child {
+    flex: 6;
+  }
+
+  *:not(:first-child) {
+    flex: 5;
+  }
+}
+
+.col-right {
+  > *:first-child {
+    flex: 3;
+  }
+
+  > *:not(:first-child) {
+    flex: 6;
+  }
+}

@@ -1,17 +1,154 @@
 .page1 {
-  background-image: url('https://unsplash.it/2048/1366?image=454');
-  background-repeat: no-repeat;
-  padding: 0 250px;
-
   h1 {
-    color: $white;
-    //opacity: 0.9;
+    @include big-title($white);
     border: 9px $white solid;
-    padding: 50px 60px;
-    font-size: 70px;
+  }
+
+  .content {
+    background-image: url('https://unsplash.it/2048/1366?image=454');
+    @include full-bg('center');
+    padding: 0 250px;
   }
 }
 
 .page2 {
+  h2 {
+    @include big-title($white);
+  }
 
+  .content {
+    //color: $white;
+    background-image: url('../img/IMG_6847.jpg');
+    @include full-bg('center');
+
+    div {
+      background-color: rgba(255, 255, 255, 0.9);
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    p {
+      padding: 80px 80px;
+      margin: 0;
+    }
+  }
+}
+
+.page3 {
+  .content {
+    background-image: url('../img/IMG_6842.jpg');
+    @include full-bg('center');
+  }
+
+  .frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    background-color: $white;
+    border: 10px black solid;
+    padding: 50px;
+  }
+
+  p {
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+  }
+}
+
+.page4 {
+  h2 {
+    @include big-title($white);
+  }
+
+  .content {
+    //color: $white;
+    background-image: url('../img/IMG_6758.jpg');
+    @include full-bg('center');
+
+    .left {
+      background-color: rgba(255, 255, 255, 0.9);
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+
+      &--content {
+        padding: 80px 70px;
+      }
+    }
+
+    h3 {
+      display: inline;
+      border-bottom: 3px $black solid;
+      padding: 5px 0;
+    }
+
+    p {
+      margin: 30px 0 10px 0;
+    }
+  }
+}
+
+.page5 {
+
+  .left {
+    flex: 5;
+    height: 100%;
+    background-image: url('../img/16763696_10202790880649647_2124413662_o.jpg');
+    @include full-bg('center');
+  }
+
+  .right {
+    p {
+      padding: 0 60px;
+    }
+    h2 {
+      @include big-title($black);
+    }
+  }
+}
+
+.page6 {
+  .content {
+    background-image: url('../img/IMG_6765.jpg');
+    @include full-bg('center');
+  }
+
+  .frame {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 10px black solid;
+    padding: 50px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 10px 0;
+  }
+
+  p {
+    margin: 0;
+    font-weight: bolder;
+    text-align: center;
+  }
+}
+
+.page7 {
+  h1 {
+    @include big-title($white);
+    border: 9px $white solid;
+    text-align: center;
+  }
+
+  .content {
+    background-image: url('../img/IMG_6812.jpg');
+    @include full-bg('center');
+    padding: 0 250px;
+  }
 }
